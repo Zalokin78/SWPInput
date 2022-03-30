@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+
+  <body>
+    <div class="title">
+
+      <div id = "test">blah</div>
+      
+    <input
+      type="text"
+      class = "digits"
+      id="digit0"
+      maxlength="2"
+      size="1"
+      placeholder="00"
+      onkeyup="autoTab(event)" onkeydown="return currTabAnalytics(event)" onclick="fieldClick(event)"
+    />
+    <input
+      class = "digits"
+      type="text"
+      maxlength="2"
+      size="1"
+      name="inputName"
+      id="digit1"
+      placeholder="00"
+      onkeyup="autoTab(event)" onkeydown="return currTabAnalytics(event)" onclick="fieldClick(event)"
+    />
+    
+
+    <input
+    class = "digits"
+      id="digit2"
+      type="text"
+      placeholder="00"
+      maxlength="2"
+      size="1"
+      onkeyup="autoTab(event)" onkeydown="return currTabAnalytics(event)" onclick="fieldClick(event)"
+    />
+
+    <!-- <div class="titleNew">CLOCK</div> -->
+    <!-- <div class = "wrapper"> -->
+    
+    
+    <!-- </div> -->
+  </body>
+  <script src="newSimplerKeyDownRestrict.js"></script>
+</html>
